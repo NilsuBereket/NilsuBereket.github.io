@@ -1,0 +1,66 @@
+.navbar {
+  background: rgb(0, 0, 0);
+  color: whitesmoke;
+}
+.link {
+  color: whitesmoke;
+  font-size: 16px;
+}
+a:hover {
+  color: aqua;
+}
+
+.content {
+  min-height: calc(100vh - 100px);
+}
+
+.footer {
+  text-align: center;
+  width: 100%;
+  height: 75px;
+  left: 0;
+  bottom: 0;
+  display: block;
+  background-color: cornflowerblue;
+  color: whitesmoke;
+}
+
+@media screen and (max-width: 980px) {
+  .photo {
+    height: 520px;
+    width: 590px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .photo {
+    height: 420px;
+    width: 490px;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .photo {
+    height: 370px;
+    width: 420px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .photo {
+    height: 370px;
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .photo {
+    height: 330px;
+    width: 300px;
+  }
+}
+
+.slider-photos {
+  /* width: 900px !important; */
+  width: fit-content;
+}
